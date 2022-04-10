@@ -51,14 +51,11 @@ export default function Slider() {
           <div className="container-carousel">
             {dataSlider.map((obj, index) => {
                 return (
-                    <div
-                    key={obj.id}
-                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    >
                         <img 
+                        key={obj.id}
+                        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                         src={obj.src} alt={obj.title}
-                        />
-                    </div>
+                        />    
                 )
             })}
           </div>
