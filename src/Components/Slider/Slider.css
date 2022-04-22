@@ -13,11 +13,11 @@
   }
 }
 
-container-carousel {
+.container-carousel {
   flex-basis: auto;
   order: 1;
   position: relative;
-  max-width: 1366px;
+  width: 1366px;
   height: 566px;
 }
 
